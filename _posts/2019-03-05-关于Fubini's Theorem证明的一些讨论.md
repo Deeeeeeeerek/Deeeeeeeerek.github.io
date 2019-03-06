@@ -53,7 +53,8 @@ Let $\lambda=\max\lbrace\Delta x_i, \Delta y_k\rbrace.$ Since $f$ is integral on
 By Squeeze Theorem, we have $$\lim\limits_{\lambda\to0}\sum\limits_{k=1}^Kg(\xi_k) \Delta y_k=\iint_Rf\ \mathrm{d}A.$$ 
 By the definition of integral, we know since $\lim\limits_{\lambda\to0}\sum\limits_{k=1}^Kg(\xi_k) \Delta y_k$ exits, then $g(y)$ is integrable on $[c, d].$
 
-Since $g(y):=\int_a^bf(x, y)dx$ is integrable on $[c, d],$ then by Fubini's Theorem, $$\iint_Rf\ \mathrm{d}A=\int_c^dg(y)\ \mathrm{d}y=\int_c^d\left(\int_a^bf(x, y)\ \mathrm{d}x\right)\ \mathrm{d}y.$$
+Since $g(y):=\int_a^bf(x, y)dx$ is integrable on $[c, d],$ then by Fubini's Theorem, $$\iint_Rf\ \mathrm{d}A=\int_c^dg(y)\ \mathrm{d}y=\int_c^d\left(\int_a^bf(x, y)\ \mathrm{d}x\right)\ \mathrm{d}y,$$
+<p align="right">$\square$</p>
 
 ## 2.1 一些说明
 ***
@@ -64,3 +65,4 @@ Since $g(y):=\int_a^bf(x, y)dx$ is integrable on $[c, d],$ then by Fubini's Theo
 Since $f(x, y)$ is integrable on $[a, b], \forall y\in[c, d],$ then $f(x, y)$ is also integrable on $[x_{j-1}, x_j], \forall y\in[y_{k-1}, y_k].$ Therefore, $$m_{jk}(x_j-x_{j-1})\leq\int_{x_{j-1}}^{x_j}f(x, y)\ \mathrm{d}x.$$
 Since $[a, b]=\bigcup\limits^J_{j=1}[x_{j-1}, x_j], $ and each $x_j$ is distinct, then any intersection of two adjacent intervals has zero content. Thus, $$\int_a^bf(x, y)\ \mathrm{d}x=\sum\limits_{j=1}^J\int_{x_{j-1}}^{x_j}f(x, y)\ \mathrm{d}x.$$
 Hence, we have $$\sum\limits_{j=1}^Jm_{jk}(x_j-x_{j-1})\leq\sum\limits_{j=1}^J\int_{x_{j-1}}^{x_j}f(x, y)dx=\int_a^bf(x, y)\ \mathrm{d}x, \forall y\in[y_{k-1}, y_k].$$
+<p align="right">$\square$</p>
