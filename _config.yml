@@ -1,10 +1,10 @@
 # Site settings
 title: Derek
-SEOTitle: 呆博
-header-img: img/header-img.jpg
+SEOTitle: 呆·博
+header-img: img/header-auroal-new.jpg
 email: litianyangchn@gmail.com
-description: "不定期更新自己的学习思考，偶尔开开脑洞，偶尔碎碎念。"
-keyword: "学习思考, 脑洞, 碎碎念"
+description: "Thoughts, imaginations, and stories."
+keyword: "Thoughts, imaginations, stories"
 url: "https://deeeeeeeerek.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
@@ -39,7 +39,7 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 
 
@@ -51,7 +51,7 @@ gems: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+  input: markdown                            # use Github Flavored Markdown !important
 
 
 
