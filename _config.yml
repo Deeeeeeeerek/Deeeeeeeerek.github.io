@@ -49,13 +49,13 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
+  enable: true
   clientID: e8c784e006b7bdbf0f46
   clientSecret: 90c671bcfa1c9108418b2616df9a9a5bc950f182
-  repo: Deeeeeeeerek.github.io    #仓库名称
-  owner: Deeeeeeeerek    #github用户名
+  repo: Deeeeeeeerek.github.io
+  owner: Deeeeeeeerek
   admin: Deeeeeeeerek
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+  distractionFreeMode: true
 
 # 统计
 
