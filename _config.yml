@@ -77,12 +77,9 @@ chrome-tab-theme-color: "#000000"
 service-worker: true
 
 # Friends
-# friends: [
-#     {
-#         title: "Apple",
-#         href: "https://apple.com"
-#     },{
-#         title: "Apple Developer",
-#         href: "https://developer.apple.com/"
-#     }
-# ]
+friends: [
+    {
+        title: "汪·博",
+        href: "https://liwy.site/"
+    }
+]
