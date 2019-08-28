@@ -80,7 +80,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "汪·博",
+        title: "Pelagus’ Blog",
         href: "https://liwy.site/"
     },
     {
@@ -88,7 +88,7 @@ friends: [
         href: "https://geelaw.blog/"
     },
     {
-        title: "Seeyoon's Blog",
+        title: "Seeyoon’s Blog",
         href: "https://haosiyuan.cn/"
     }
 ]
