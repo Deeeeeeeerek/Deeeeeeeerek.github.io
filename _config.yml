@@ -90,5 +90,9 @@ friends: [
     {
         title: "Seeyoon’s Blog",
         href: "https://haosiyuan.cn/"
+    },
+    {
+        title: "RingoTC’s Blog",
+        href: "https://ringotc.github.io/"
     }
 ]
